@@ -1,7 +1,5 @@
-
-import java.util.HashSet;
-import java.util.Set;
-public class Main {
+import java.util.*;
+public class MyMain {
     public static void main(String[] args) {
         Multithreading myThread = new Multithreading();
         myThread.start();

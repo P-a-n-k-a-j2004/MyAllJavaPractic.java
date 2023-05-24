@@ -18,6 +18,7 @@ public class Main extends JFrame {
         ImageIcon i3=new ImageIcon(i2);
         JLabel label=new JLabel(i3);
         label.setBounds(70,10,100,100);
+        label.setLayout(null);
         add(label);
 
 
