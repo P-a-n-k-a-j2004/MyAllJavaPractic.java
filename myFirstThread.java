@@ -1,5 +1,4 @@
-import java.util.*;
-public class MyMain {
+public class myFirstThread {
     public static void main(String[] args) {
         Multithreading myThread = new Multithreading();
         myThread.start();

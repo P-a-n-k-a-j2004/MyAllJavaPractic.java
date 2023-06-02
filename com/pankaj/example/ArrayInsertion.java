@@ -56,7 +56,7 @@ for(;;){
                         arr2[i-1]=arr[i];
                     }
 
-                }System.out.println("Your Deleted index  is -  " + remove);
+                }System.out.println("Your Deleted index                   is -  " + remove);
                 break;
             case 3: System.out.println("This is for Display Array element here:");
                 for(int i=0; i<size-1; i++){

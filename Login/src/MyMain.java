@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Main extends JFrame {
-    Main(){
+public class MyMain extends JFrame {
+    MyMain(){
         setSize(800,400);//This code is use for creating the frame
         setTitle("AUTOMATIC TALLER MACHINE");//This code is use for set Title in frame
         setVisible(true);//this code is use for visible the frame
@@ -24,6 +24,6 @@ public class Main extends JFrame {
 
     }
     public static void main(String [] args){
-        new Main();
+        new MyMain();
     }
 }
