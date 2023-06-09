@@ -142,6 +142,7 @@ do{
                 break;
 
 
+
             case "DeleteCharacter":
                 System.out.println("Enter which value you want to Delete in Character");
                 Integer deleteCharacter = sc.nextInt();
