@@ -2,18 +2,22 @@ package com.Youtube.FileHandling;
 
 import java.util.*;
 import java.io.*;
+import java.io.File;
 
-public class UsingArrayStoreValue {
-    public static void main(String[] args){
+public class UsingArrayStoreValue{
+    public static void main(String[] args)throws FileNotFoundException,IOException{
         Scanner sc = new Scanner(System.in);
+
+        String [] array;
+        long [] arr;
 
 
 
         try{FileWriter writer = new FileWriter("UserArray.txt");
             System.out.println("Enter How Many Value you want to enter:");
           int howManyValue=sc.nextInt();
-            String [] array=new String[howManyValue];
-            long []arr=new long[howManyValue];
+            array=new String[howManyValue];
+             arr=new long[howManyValue];
             writer.write("====================================================================");
             writer.write("\n\tName:"+"   \t\t||\t"+"\tMobil.NO:");
             // writer.write();
@@ -34,6 +38,7 @@ public class UsingArrayStoreValue {
                     writer.write("\n====================================================================");
 
             }
+
         writer.close();
     }catch (IOException e){
             e.getStackTrace();
