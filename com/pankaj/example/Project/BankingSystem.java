@@ -1,115 +1,79 @@
-package com.pankaj.example.Project;
+/*package com.pankaj.example.Project;
 
 
 import java.util.Scanner;
 
 public class BankingSystem {
-    private String name;
-    private int id;
-    private long acc;
-    private long balance;
-//    BankingSystem(String Name,int Id,long Acc,long Balance){
-//
-//        this.name=Name;
-//        this.id=Id;
-//        this.acc=Acc;
-//        this.balance=Balance;
-//    }
-    public String setName(String name){
+    private static String name;
+    private static int id;
+    private static long acc;
+    private static long balance;
+    BankingSystem(String name,int id,long acc,long balance){
         this.name=name;
-        return getName();
+        this.id=id;
+        this.acc=acc;
+        this.balance=balance;
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
-    public int getId() {
+    public static void setName(String name) {
+        BankingSystem.name = name;
+    }
+
+    public static int getId() {
         return id;
     }
 
-    public int setId(int id) {
-        this.id = id;
-        return getId();
+    public static void setId(int id) {
+        BankingSystem.id = id;
     }
 
-    public long getAcc() {
-
+    public static long getAcc() {
         return acc;
     }
 
-    public long setAcc(long Acc) {
-
-        this.acc = Acc;
-
-        return getAcc();
+    public static void setAcc(long acc) {
+        if( BankingSystem.acc >0 &&  BankingSystem.acc >13) {
+            BankingSystem.acc = acc;
+        }else{
+            System.out.println("Sorry you are wrong");
+        }
     }
 
-    public long getBalance() {
+    public static long getBalance() {
         return balance;
     }
 
-    public long setBalance(long balance) {
-        this.balance = balance;
-        return getBalance();
+    public static void setBalance(long balance) {
+        BankingSystem.balance = balance;
     }
 
-    public static void main(String [] args){
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);*/
+/*
+        
+        BankingSystem user1=new BankingSystem();
+        System.out.println("\n\t\t======================================================================================================");
+        System.out.print("\t\t||");
+        System.out.print("\t|      Name      |");
+        System.out.print("\t|      Id      | ");
+        System.out.print("\t|      Account no.      |");
+        System.out.print("\t|      Balance      |");
+        System.out.print("\t\t||");
 
-        Scanner scan=new Scanner(System.in);
-        String name;
-        int id;
-        long acc;
-        long balance=75000l;
-
-
-        System.out.print("Enter Your Name: ");
-        name=scan.nextLine();
-        System.out.print("Enter Your Id: ");
-        id=scan.nextInt();
-        System.out.print("Enter Your Account no: ");
-        acc=scan.nextLong();
-
-            BankingSystem userData1 = new BankingSystem();
-            //BankingSystem userData1 = new BankingSystem("pankaj", 45849, 7878787878787l, 78798798l);
-
-//        if(userData1.getAcc()>0 && userData1.getAcc()<13){
-//            System.out.println("Sorry your Account Number is not exist . \nplease Enter valid Account number..");
-//        }else {
-        String myName = userData1.setName(name);
-        int myId = userData1.setId(id);
-        long myAcc = userData1.setAcc(acc);
-        long myBalance = userData1.setBalance(70000);
-        if(userData1.getAcc()>0 && userData1.getAcc()<13){
-            System.out.println("Sorry your Account Number is not exist . \nplease Enter valid Account number..");
-        }
-
-             myName = userData1.getName();
-            myId = userData1.getId();
-            myAcc = userData1.getAcc();
-             myBalance = userData1.getBalance();
-
-
-            System.out.println("\n\t\t======================================================================================================");
-            System.out.print("\t\t||");
-            System.out.print("\t|      Name      |");
-            System.out.print("\t|      Id      | ");
-            System.out.print("\t|      Account no.      |");
-            System.out.print("\t|      Balance      |");
-            System.out.print("\t\t||");
-
-            System.out.println("\n\t\t======================================================================================================");
-            System.out.print("\t\t||");
-            System.out.print("\t     " + myName + "     ");
-            System.out.print("\t     " + myId + "      ");
-            System.out.print("\t       " + myAcc + "       ");
-            System.out.print("\t        " + myBalance + "        ");
-            System.out.print("\t\t||");
-            System.out.println("\n\t\t======================================================================================================");
-
-//        }
+        System.out.println("\n\t\t======================================================================================================");
+        System.out.print("\t\t||");
+        System.out.print("\t     " + myName + "     ");
+        System.out.print("\t     " + myId + "      ");
+        System.out.print("\t       " + myAcc + "       ");
+        System.out.print("\t        " + myBalance + "        ");
+        System.out.print("\t\t||");
+        System.out.println("\n\t\t======================================================================================================");
     }
-}
+}*/
 //name
 //id
 //acc
