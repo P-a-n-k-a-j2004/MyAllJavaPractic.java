@@ -45,14 +45,14 @@ public class IsWeekAndIsDays {
         }
     }
 
-    public static boolean isDays(String day){
-
-        switch(day){
-            case "january":System.out.println("January");break;
-            case "fabrrary":System.out.println("January");break;
-        }
-
-    }
+//    public static boolean isDays(String day){
+//
+//        switch(day){
+//            case "january":System.out.println("January");break;
+//            case "fabrrary":System.out.println("January");break;
+//        }
+//
+//    }
 
     public static void main(String[] args) {
 

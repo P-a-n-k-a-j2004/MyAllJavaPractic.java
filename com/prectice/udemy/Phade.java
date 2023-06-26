@@ -8,9 +8,9 @@ public class Phade {
            int myNumber = sc.nextInt();
            int n = 10;
            System.out.println("Result\n");
-           for (int i = 1; i <= myNumber; i++) {
-               //System.out.println(myNumber + " * " + i + " = " + myNumber * i);
-               System.out.println(i);
+           for (int i = 1; i <= n; i++) {
+               System.out.println(myNumber + " * " + i + " = " + myNumber * i);
+               //System.out.println(i);
            }
        }
     }
